@@ -16,6 +16,9 @@ function smothscroll(element) {
         behavior: 'smooth'
     })
 }
+// function delete(){
+//     delete
+// }
 window.onload=function(){
     var button_1 = document.querySelector('.text__button--btn');
     var button_2 = document.querySelector('.more__button--btn');
@@ -32,3 +35,8 @@ window.onload=function(){
         smothscroll(page_2);
     })
 }
+if(window.onload){
+    let body = document.getElementsByTagName('body');
+    delete body;
+}
+
