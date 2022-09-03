@@ -8,7 +8,12 @@ $(document).ready(function (){
         slidesToShow: 1
     })
 });
-
+$(document).ready(function (){
+    $('.header__head--burger').click(function (event){
+        $('.container, .header__container--head,.header__head--navbar,.header__head--burger').toggleClass('active');
+        $('body').toggleClass('lock');
+    });
+});
 function smothscroll(element) {
     window.scroll({
         left:0,
@@ -16,9 +21,6 @@ function smothscroll(element) {
         behavior: 'smooth'
     })
 }
-// function delete(){
-//     delete
-// }
 window.onload=function(){
     var button_1 = document.querySelector('.text__button--btn');
     var button_2 = document.querySelector('.more__button--btn');
