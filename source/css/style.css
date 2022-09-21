@@ -648,14 +648,14 @@ textarea{
         display: none;
     }
     .header__head--navbar.active{
-        margin: 150px 0 0 0;
+        margin: 100px 0 0 0;
         display:flex;
     }
     .header__navbar--ul{
         display: flex;
         width: 235px;
         flex-direction: column;
-        gap: 75px;
+        gap: 60px;
         text-align: center;
     }
     .header__navbar--li{
@@ -1031,7 +1031,7 @@ textarea{
     }
     .header__head--navbar.active{
         display:flex;
-        margin: 125px 0 0 0;
+        margin: 100px 0 0 0;
         flex: 1;
         height: 100%;
     }
@@ -1043,7 +1043,7 @@ textarea{
     .header__navbar--ul{
         display: flex;
         flex-direction: column;
-        gap: 75px;
+        gap: 60px;
         text-align: center;
         margin: 25px auto 0 auto;
     }
