@@ -586,15 +586,18 @@ textarea{
     }
     .header__container--head.active{
         position: fixed;
-        background: black;
-        height: 100%;
+        background: url("/source/img/mobile/header/navbar.svg");
+        background-repeat: no-repeat;
+        -moz-background-size: cover;
+        background-position: center center;
+        background-size: cover;
+        height: 100vh;
         left: 0;
         z-index: 999;
         width: 100%;
         padding: 28px 0 0 0;
         display: flex;
         justify-content: center;
-        transition: all 0.5s ease-in-out;
     }
     .header__head--logo{
         width: 39px;
@@ -645,6 +648,7 @@ textarea{
         display: none;
     }
     .header__head--navbar.active{
+        margin: 150px 0 0 0;
         display:flex;
     }
     .header__navbar--ul{
@@ -659,7 +663,7 @@ textarea{
         margin: 0 auto;
     }
     .header__navbar--link{
-        font-size: 20px;
+        font-size: 30px;
     }
     .header__navbar--link:hover:after{
         display: none;
@@ -892,8 +896,23 @@ textarea{
     .item__head--title{
         margin: 2px auto 0 8px;
     }
+    .footer__item{
+        margin: 0 auto;
+    }
+    .footer__item--head{
+        width: 75px;
+        margin: 0 auto;
+    }
+    .footer__head{
+        width: 150px;
+        margin: 0 auto;
+    }
     .footer__navbar--ul{
         width: 110px;
+        text-align: center;
+    }
+    .footer__ul{
+        width: 300px;
         margin: 0 auto;
     }
     .footer__navbar--logo{
@@ -952,7 +971,10 @@ textarea{
     }
     .header__container--head.active{
         position: fixed;
-        background: black;
+        background: url("/source/img/mobile/header/navbar.svg");
+        background-repeat: no-repeat;
+        -moz-background-size: cover;
+        background-size: cover;
         height: 100%;
         left: 0;
         z-index: 999;
@@ -961,7 +983,6 @@ textarea{
         padding: 28px 15px 0 15px;
         display: flex;
         justify-content: space-between;
-        transition: all 0.5s ease-in-out;
     }
     .header__head--logo{
         width: 78px;
@@ -969,7 +990,7 @@ textarea{
         background: url("/source/img/desktop/header/logo.svg");
     }
     .header__head--burger{
-        margin: 15px 0 0 0;
+        margin: 15px 24px 0 24px;
         position: relative;
         display: block;
         width: 30px;
@@ -1022,12 +1043,12 @@ textarea{
     .header__navbar--ul{
         display: flex;
         flex-direction: column;
-        gap: 40px;
+        gap: 75px;
         text-align: center;
-        margin: 0 auto;
+        margin: 25px auto 0 auto;
     }
     .header__navbar--link{
-        font-size: 40px;
+        font-size: 35px;
     }
     .header__navbar--link:hover:after{
         display: none;
