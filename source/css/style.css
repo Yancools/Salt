@@ -476,6 +476,7 @@ textarea{
 }
 .content__item--link{
     margin: 5px 0 0 0;
+    text-decoration: none;
     font-weight: 400;
     font-size: 13px;
     color: #7050E5;
@@ -915,6 +916,11 @@ textarea{
         width: 300px;
         margin: 0 auto;
     }
+    .myemail{
+        text-transform: none;
+        width: 320px;
+        font-size: 13px;
+    }
     .footer__navbar--logo{
         background: url("/source/img/mobile/footer/logo.svg");
         height: 100px;
@@ -1320,6 +1326,9 @@ textarea{
         margin: 0 auto;
         flex-direction: column;
     }
+    .myemail{
+        text-transform: none;
+    }
     .footer__navbar--ul{
         width: 75%;
         text-align: center;
@@ -1640,6 +1649,10 @@ textarea{
         display: flex;
         margin: 60px auto 0 auto;
         gap: 20px;
+    }
+    .myemail{
+        text-transform: none;
+        width: 300px;
     }
     .item__head--dot {
         margin: 0 5px 0 auto;
