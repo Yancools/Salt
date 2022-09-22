@@ -1650,10 +1650,7 @@ textarea{
         margin: 60px auto 0 auto;
         gap: 20px;
     }
-    .myemail{
-        text-transform: none;
-        width: 300px;
-    }
+
     .item__head--dot {
         margin: 0 5px 0 auto;
     }
@@ -1682,6 +1679,14 @@ textarea{
         height: 100px;
         width: 88px;
         margin: 80px auto 0 auto;
+    }
+    .footer__ul{
+        width: 230px;
+    }
+    .myemail{
+        text-transform: none;
+        width: 230px;
+        font-size: 10px;
     }
     .copyright{
         width: 100%;
